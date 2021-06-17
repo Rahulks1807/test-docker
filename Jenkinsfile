@@ -9,6 +9,7 @@ node {
   stage('Building') {
             echo "hello there"
             echo "$imagename"
+            echo "$imagename.id"
             sh """
             echo "hello this is testing"
             """
